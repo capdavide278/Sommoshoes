@@ -11,6 +11,7 @@
 /* Creazione header */
 .header{
     height: 350px;
+    background-color: cadetblue;
 }
 
 .header div{
