@@ -9,6 +9,10 @@
 }
 
 /* Creazione header */
+.header{
+    height: 350px;
+}
+
 .header div{
     display: flex;
     align-items: center;
@@ -44,7 +48,7 @@ a:hover{
     color: white;
 }
 
-.btn-contatti{
+.btn{
     padding: 0px 15px 0px 15px;
     border-radius: 5px;
     cursor: pointer;
@@ -55,6 +59,40 @@ a:hover{
     border: 0px solid black;
     text-decoration: none;
 }
+
 /* hero section */
+.hero{
+    display: flex;
+    padding: 5% 10%;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.hero-testo{
+    width: 100%;
+}
+
+.hero_img{
+    width: 53%;
+    margin-left: 250px;
+}
+
+.btn-products{
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    background-color:#f9b226;
+    border: 0px solid black;
+    text-decoration: none;
+}
+
+@media  (max-width: 760px) {
+    .hero{flex-wrap:wrap;}
+    .hero-testo,
+    .hero_img{width:50%;margin-top: 50px;}
+}
+.img-res{height: auto; width: 100%;}
 /* creazione body */
+
 /* creazione footer */
