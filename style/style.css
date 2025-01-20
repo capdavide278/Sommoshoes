@@ -23,9 +23,9 @@
 
 #menu-container{
     background-color: #1f4967;
-    width: 70%;
+    width: 80%;
     height: 20%;
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: 25px;
     position: fixed;
     border-radius: 50px;
@@ -73,6 +73,7 @@ body{background-color:cadetblue ;}
 
 .hero-testo{
     width: 100%;
+    padding-left: 100px;
 }
 
 .hero_img{
@@ -98,7 +99,21 @@ body{background-color:cadetblue ;}
 
 /* card */
 .img-scarpe{
-    height: 350px;
+    height: 370px;
+}
+
+.card{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.card-testo{
+    position: absolute;
+    bottom: 10px;
+    background-color: #f9b226;
+    padding: 10px;
+    color: #ffff;
 }
 
 /* creazione footer */
@@ -124,7 +139,7 @@ body{background-color:cadetblue ;}
 .grid-2{
     display: flex;
     flex-direction: row-reverse;
-    padding: 0px 15%;
+    padding: 0px 17%;
 }
 
 .col-50{width: 50%;padding: 10% 20%;}
