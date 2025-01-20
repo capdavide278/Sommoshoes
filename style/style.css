@@ -118,9 +118,6 @@ body{background-color:cadetblue ;}
     color: #ffff;
 }
 
-/* creazione footer */
-
-
 /* utilities */
 .img-res{height: auto; width: 100%;}
 
@@ -144,11 +141,11 @@ body{background-color:cadetblue ;}
     padding: 0px 17%;
 }
 
-
+.col-25{width: 25%;}
 .col-50{width: 50%;padding: 10% 20%;}
 .col-40{width: 40%;padding: 10% 20%;}
 .col-60{width: 60%;padding: 10% 20%;}
-.col-33{width: 33.33%;padding: 10% 20%;}
+.col-33{width: 33.33%;padding: 10%;}
 .col-100{width: 100%;}
 
 @media (max-width:768px){
@@ -156,5 +153,6 @@ body{background-color:cadetblue ;}
     .col-40,
     .col-60,
     .col-33,
+    .col-25,
     .col-100{width: 100%;}
 }
