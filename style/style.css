@@ -10,29 +10,25 @@
 
 /* Creazione header */
 .header{
-    height: 320px;
-    background-color: cadetblue;
-    z-index: 1;
+    height: 200px;
+    background-color: white;
 }
 
 .header div{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #menu-container{
     background-color: #1f4967;
-    width: 80%;
-    height: 20%;
-    margin-left: 12%;
-    margin-top: 25px;
-    position: fixed;
-    border-radius: 50px;
+    width: 100%;
+    height: 60%;
 }
 
 .logo{
+    margin-top: 100px;
     height: 317px;
 }
 
@@ -62,14 +58,14 @@ a:hover{
     text-decoration: none;
 }
 /* creazione body */
-body{background-color:cadetblue ;}
+body{background-color:white ;}
 
 /* hero section */
 .hero{
     display: flex;
     padding: 5% 10%;
     justify-content: center;
-    background-color: cadetblue;
+    background-color: white;
 }
 
 .hero-testo{
