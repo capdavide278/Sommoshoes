@@ -60,6 +60,29 @@ a:hover{
 /* creazione body */
 body{background-color:white ;}
 
+/* presentazione */
+#presentazione-cont{
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.presentazione{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    background-image: url('../assets/img_sommopres2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.presentazione-testo{
+    text-align: center;
+    padding: 10%;
+    color: black;
+}
+
 /* hero section */
 .hero{
     display: flex;
@@ -99,6 +122,10 @@ body{background-color:white ;}
     height: 370px;
 }
 
+.img-scarpe:hover{
+    cursor: pointer;
+}
+
 .card{
     display: block;
     width: 100%;
@@ -113,6 +140,16 @@ body{background-color:white ;}
     padding: 10px;
     color: #ffff;
 }
+
+.card-prezzo{
+    position: absolute;
+    bottom: 10px;
+    left: 282px;
+    padding: 10px;
+    color: black;
+    /* display: none; */
+}
+
 
 /* utilities */
 .img-res{height: auto; width: 100%;}
