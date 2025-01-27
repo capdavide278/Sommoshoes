@@ -85,6 +85,16 @@
 /* Classe per mostrare il menu */
 .nav-menu.active {
     display: block;
+    animation-name: menu-down;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes menu-down{
+    0%{
+        opacity: 1.0;
+        transform: rotateX(90deg);
+    }
 }
 
 /* creazione body */
