@@ -157,12 +157,25 @@ body{background-color:white ;}
 
 /* card */
 .img-scarpe{
-    height: 370px;
+    height: 350px;
 }
 
-.img-scarpe:hover{
-    cursor: pointer;
+.col-33:hover .img-scarpe{
+    height: 400px;
+    animation: zoom 2s ease-in-out infinite;
 }
+
+@keyframes zoom {
+    0% {
+      scale: 100%;
+    }
+    50% {
+      scale: 110%;
+    }
+    100% {
+      scale: 100%;
+    }
+  }
 
 .card{
     display: block;
@@ -187,7 +200,6 @@ body{background-color:white ;}
     color: black;
     /* display: none; */
 }
-
 
 /* utilities */
 .img-res{height: auto; width: 100%;}
@@ -226,4 +238,13 @@ body{background-color:white ;}
     .col-33,
     .col-25,
     .col-100{width: 100%;}
+}
+
+/* parte della card */
+.col-33 .card-prezzo{
+    opacity: 0;
+}
+
+.col-33:hover .card-prezzo{
+    opacity: 1;
 }
